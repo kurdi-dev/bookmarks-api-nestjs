@@ -29,7 +29,7 @@ lerna-debug.log*
 
 # docker postgress db files
 /pgdata
-
+.env
 
 # IDE - VSCode
 .vscode/*
