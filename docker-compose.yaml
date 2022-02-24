@@ -4,8 +4,8 @@ services:
     image: postgres
     ports:
       - '54320:5432'
-    volumes:
-      - ./pgdata:/var/lib/postgresql/data
+    # volumes:
+    #   - ./pgdata:/var/lib/postgresql/data
     environment:
       - POSTGRES_USER=walid
       - POSTGRES_PASSWORD=123456
