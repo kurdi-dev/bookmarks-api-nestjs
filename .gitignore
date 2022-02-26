@@ -30,6 +30,7 @@ lerna-debug.log*
 # docker postgress db files
 /pgdata
 .env
+.env.test
 
 # IDE - VSCode
 .vscode/*

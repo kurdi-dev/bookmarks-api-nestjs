@@ -1,9 +1,20 @@
 version: '3.8'
 services:
-  db:
+  dev-db:
     image: postgres
     ports:
       - '54320:5432'
+    # volumes:
+    #   - ./pgdata:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=walid
+      - POSTGRES_PASSWORD=123456
+      - POSTGRES_DB=mydb
+
+  test-db:
+    image: postgres
+    ports:
+      - '54321:5432'
     # volumes:
     #   - ./pgdata:/var/lib/postgresql/data
     environment:
