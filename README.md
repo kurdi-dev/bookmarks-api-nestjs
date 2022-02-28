@@ -24,8 +24,7 @@ Website bookmarks API with JWT user authentication and protected routes, built w
 ### Clone the project
 
 ```bash
-  git clone https://github.com/kudi-dev/
-bookmarks-api-nestjs.git
+  git clone https://github.com/kurdi-dev/bookmarks-api-nestjs.git
 ```
 
 ### Installation
